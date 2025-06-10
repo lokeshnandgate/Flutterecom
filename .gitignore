@@ -1,0 +1,66 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Flutter specific
+generated_plugin_registrant.dart
+
+# iOS & macOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/DerivedData/
+macos/Pods/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+*.keystore
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Linux
+linux/flutter/ephemeral/
+linux/CMakeFiles/
+linux/Makefile
+linux/cmake-build-debug/
+
+# Windows
+windows/flutter/ephemeral/
+windows/CMakeFiles/
+windows/*.vcxproj.user
+windows/*.sln
+
+# Other common files
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Environment variables / secrets
+.env
+
+# Symbol files / crash logs / large binaries (like *.so)
+*.symbols
+*.dSYM/
+*.so
+
+# Flutter build artifacts
+build/
