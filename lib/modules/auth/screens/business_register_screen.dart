@@ -1,10 +1,10 @@
+import 'package:ecom/app/app_state.dart';
+import 'package:ecom/app/routes.dart';
+import 'package:ecom/modules/auth/services/auth_service.dart';
+import 'package:ecom/shared/services/api_service.dart';
+import 'package:ecom/shared/services/storage_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../../app/app_state.dart';
-import '../../../app/routes.dart';
-import '../services/auth_service.dart';
-import '../../../shared/services/api_service.dart'; // Ensure ApiService is imported
-import '../../../shared/services/storage_service.dart';
 
 class BusinessRegisterScreen extends StatefulWidget {
   const BusinessRegisterScreen({super.key});

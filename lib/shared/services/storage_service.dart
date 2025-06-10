@@ -1,12 +1,10 @@
-// ignore: depend_on_referenced_packages
-// import 'package:shared_preferences/shared_preferences.dart';
+import 'dart:convert';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class StorageService {
   static const String tokenKey = 'token';
   static const String userKey = 'user_data';
   static const String isBusinessKey = 'is_business';
-  
-  get json => null;
 
   Future<void> saveToken(String token) async {
     final prefs = await SharedPreferences.getInstance();
@@ -45,8 +43,4 @@ class StorageService {
     await prefs.remove(userKey);
     await prefs.remove(isBusinessKey);
   }
-}
-
-class SharedPreferences {
-  static Future getInstance() async {}
 }

@@ -1,15 +1,15 @@
 // import 'dart:convert';
 
 // import 'package:ecom/config.dart';
+import 'package:ecom/modules/auth/services/auth_service.dart';
+import 'package:ecom/shared/services/api_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:ecom/app/app_state.dart';
 import 'package:ecom/app/routes.dart';
 import 'package:ecom/redux/actions.dart';
 // import 'package:http/http.dart' as http;
-import '../../../shared/services/api_service.dart';
-import '../../../shared/services/storage_service.dart';
-import '../services/auth_service.dart';
+import 'package:ecom/shared/services/storage_service.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginScreen extends StatefulWidget {

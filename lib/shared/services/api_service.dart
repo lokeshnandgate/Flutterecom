@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:ecom/config.dart';
+import 'package:ecom/shared/services/storage_service.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
-import '../../shared/services/storage_service.dart';
 
 class ApiService {
   static const String baseUrl = AppConfig.apiUrl;
